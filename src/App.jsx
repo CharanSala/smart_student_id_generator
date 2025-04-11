@@ -11,7 +11,7 @@ const App = () => {
 
   // Toggle function
   const toggleTheme = () => {
-    setTheme(prevTheme => (prevTheme === "dark" ? "light" : "dark"));
+    setTheme(prevTheme => (prevTheme === "light" ? "dark" : "light"));
   };
 
   // Update the HTML element's class so Tailwind dark mode works
