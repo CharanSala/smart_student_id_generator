@@ -7,7 +7,7 @@ import Older_cards from './Pages/older_cards';
 import Navbar from './Pages/Navbar';
 
 const App = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   // Toggle function
   const toggleTheme = () => {
